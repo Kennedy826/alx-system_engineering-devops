@@ -1,1 +1,1 @@
-Task 18. Life is a series of commas, not periods
+Task 19. File type: School
