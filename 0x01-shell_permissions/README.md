@@ -1,1 +1,1 @@
-script that will play the StarWars IV episode in the terminal.
+script that prints the effective username of the current user.
