@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#This is a file for configuring mysql community server
+
+sudo apt-key add signature.key
+
+#Add the apt repo
+
+sudo sh -c 'echo "deb http://repo.mysql.com/apt/ubuntu bionic mysql-5.7" >> /etc/apt/sources.list.d/mysql.list'
+
+#update the apt
+
+sudo apt-get update
+
+#check the available versions
+
+sudo apt-cache policy mysql-server
+
+#instal mysql 5.7
+
+sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
